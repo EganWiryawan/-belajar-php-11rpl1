@@ -7,6 +7,7 @@
             $row = mysqli_fetch_array($query);
       }
 ?>
+<div class="container">
 <h1>Edit Data</h1>
 <form action="input-datadiri-edit.php" method="POST">
       <label for="nis">Nomor Induk Siswa :</label><br>
